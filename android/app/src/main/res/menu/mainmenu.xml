@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mainAddVoca"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="import"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/mainEditVoca"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="import"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/mainImport"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="import"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/mainExport"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="export"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/mainSettings"
+        android:icon="@drawable/settings"
+        android:title="settings"
+        app:showAsAction="always">
+    </item>
+</menu>

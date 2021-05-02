@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/convertCard"
+        android:icon="@drawable/ic_converter"
+        android:title="import"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/addCard"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="import"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/deleteVoca"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="import"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/saveVoca"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="import"
+        app:showAsAction="always">
+    </item>
+</menu>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/vocaValue1"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value1"/>
+            <EditText
+                android:id="@+id/vocaValue2"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value2"/>
+            <EditText
+                android:id="@+id/vocaValue3"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value3"/>
+            <EditText
+                android:id="@+id/vocaValue4"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value4"/>
+            <EditText
+                android:id="@+id/vocaValue5"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value5"/>
+            <EditText
+                android:id="@+id/vocaValue6"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value6"/>
+            <EditText
+                android:id="@+id/vocaValue7"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value7"/>
+            <EditText
+                android:id="@+id/vocaValue8"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value8"/>
+            <EditText
+                android:id="@+id/vocaValue9"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value9"/>
+            <EditText
+                android:id="@+id/vocaValue10"
+                android:layout_width="match_parent"
+                android:minHeight="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:hint="input voca value10"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

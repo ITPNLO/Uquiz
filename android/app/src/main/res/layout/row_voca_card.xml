@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:focusable="true"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:id="@+id/vocaValue1"/>
+        </LinearLayout>
+        <Button
+            android:text="DEL"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/deleteCardButton"
+            android:onClick="onClickDelete"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"/>
+        <FrameLayout
+            android:id="@+id/drag_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_drag_handle" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

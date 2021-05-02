@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/allCard"
+        android:title="All"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/notCheckCard"
+        android:title="NOT"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/knownCard"
+        android:title="O"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/unknownCard"
+        android:title="X"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/listSettings"
+        android:icon="@drawable/settings"
+        android:title="settings"
+        app:showAsAction="always">
+    </item>
+</menu>
